@@ -1,0 +1,46 @@
+#insa { color: rgb(204, 26, 71); }
+#polo { color:rgb(32, 145, 22);}
+.r { color: darkred;}      
+/* pq ne fonctionne pas dur page 2  #  ou . ? */
+.soso{color: #142992;}
+.soso-2 { color: #1a2f96;} 
+/*  ne fonctionne pas span en rouge et il ne mets pas en couleur bleu le mots passion */
+ h1 {color: #a8323c;
+background:linear-gradient (#c0392b,#8e44ad);
+text-align: center;
+text-shadow: #a8323c;
+box-shadow: 6px 6px 15px blue ;
+padding: 30px;
+background: linear-gradient(to left, #1CB5E0, #000046); }
+ body {background-color: rgb(247, 247, 247);}
+p {margin:10px;
+padding: 10px;}
+h1:hover { color: orange;}
+p:hover {color: #f0ec29;} 
+ .container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+    gap: 100px;
+width: auto;
+ }
+ td {
+   border: 1px solid black;
+ }
+ table { border-collapse:collapse;}
+ input {padding: 10px;
+border: solid 2px #a8323c;}
+form {margin: auto;
+width: 50%;}
+fieldset { border-color: #142992;
+background:rgb(216, 211, 211);}
+legend { color: #a8323c;}
+@media screen and (max-width: 1200px) {
+   p { color: #c0392b;}
+}
+@media screen and (max-width:900px) {
+   .container {
+   flex-direction: column;}
+   /*  pas reussi à avoir la couleur demandé */
+   p { overflow: scroll;}
+   /* les images ne sont pas adapté quand je réduis la taille en mode iphone tels que sur la vidéo du cours */
+}
